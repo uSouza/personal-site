@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-size: 0;
 }
 
 body {
@@ -31,7 +30,7 @@ body {
   font-size: 18px;
   font-weight: 100;
 }
-
+/* CSS para a página inicial*/
 .cover {
   color: white;
 }
@@ -59,7 +58,7 @@ body {
 
 .profile-title {
   vertical-align: top;
-  width: 60%;
+  width: 59%;
   text-transform: uppercase;
 }
 
@@ -74,4 +73,52 @@ body {
   font-size: 16px;
   font-weight: 100;
   margin-top: -26px;
+}
+/* CSS para a página de currículo*/
+
+.main {
+  padding: 80px 180px 80px 100px;
+}
+
+.main h1 {
+  color: white;
+  font-weight: normal;
+}
+
+.main h2 {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.main h3 {
+  font-size: 12px;
+  color: #f27609;
+  text-transform: uppercase;
+}
+
+.main p {
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.main img {
+  float: right;
+  width: 250px;
+  margin-right: 20px
+}
+
+.path {
+  list-style: none;
+  padding-left: 0;
+  color: gray;
+}
+
+.path li {
+  display: inline-block;
 }
