@@ -253,3 +253,75 @@ body {
     transform: translate(0px, 0px);
   }
 }
+
+@media (max-width: 1000px) {
+  .navigation li {
+    display: none;
+  }
+
+  .navigation li.threeline-icon {
+    display: inline-block;
+  }
+
+  .cover div {
+    height: auto;
+    display: block;
+  }
+
+  .profile-pic {
+    width: 100%;
+  }
+
+  .profile-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-pic img {
+    margin-top: 0;
+    max-width: 80%;
+  }
+
+  .profile-title h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .profile-title h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .main {
+    padding: 10px 5% 40px 5%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .main p {
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .path li {
+    font-size: 14px;
+  }
+
+  .cv-pic {
+    float: none;
+    max-width: 100%;
+    margin-right: 0; 
+  }
+
+  .miniatura {
+    max-width: 100%;
+    background-size: auto 100%
+  }
+
+  .blackbox {
+    opacity: 0.8;
+  }
+}
