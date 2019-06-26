@@ -46,6 +46,11 @@ body {
   display: none;
 }
 
+.navigation li.threeline-icon:hover {
+  color: #f27609;
+  cursor: pointer;
+}
+
 /* CSS para a página inicial*/
 .cover {
   color: white;
@@ -283,22 +288,20 @@ body {
   }
 
   .profile-title h1 {
-    margin-top: 30px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 35px;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .profile-title h2 {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .main {
     padding: 10px 5% 40px 5%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
   }
 
   .main p {
@@ -323,5 +326,23 @@ body {
 
   .blackbox {
     opacity: 0.8;
+  }
+
+  .menujs {
+    height: auto;
+  }
+
+  .menujs ul {
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%; 
+  }
+
+  .menujs li {
+    display: block;
+    border-bottom: solid gray 1px;
+    width: 100%;
+    padding: 0
   }
 }
