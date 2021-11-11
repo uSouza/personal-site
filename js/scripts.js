@@ -2,7 +2,7 @@ function openNav() {
   var nav = document.getElementById("navigation");
 
   if (nav.className === "navigation") {
-    nav.className += " menujs";
+    nav.classList.add("menujs");
     document.getElementById("threeline-icon").innerHTML = "&Cross;";
   } else {
     nav.className = "navigation";
